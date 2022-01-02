@@ -40,7 +40,7 @@ p {
     background: $theme-color;
     position: absolute;
     right: 0;
-    width: 280px;
+    width: 300px;
     height: 100%;
     min-height: 800px;
     color: #fff;
@@ -48,7 +48,8 @@ p {
         color: #fff;
     }
     .profile-container {
-        padding: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background: $accent-color;
         text-align: center;
         color: #fff;
