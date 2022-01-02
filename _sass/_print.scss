@@ -13,6 +13,9 @@
         width: 40%;
         height: 1500px;
         -webkit-print-color-adjust: exact;
+        .profile-container { color: black !important; }
+        .tagline { color: $text-color !important; }
+        .name { width: 250px;}
     }
 
     .remove-container.container-block {
@@ -32,18 +35,12 @@
     }
 
     .sidebar-wrapper {
-      color: black !important;
-
-    }
-    .sidebar-wrapper a {
-      color: black !important;
-
-    }
-    .sidebar-wrapper .education-container .time {
-      color: black !important;
-    }
-    .sidebar-wrapper .education-container .meta {
-      color: black !important;
+      color: $text-color !important;
+      a { color: $text-color !important; }
+      .education-container {
+         .time { color: $text-color !important; }
+         .meta { color: $text-color !important; }
+      }
     }
 
 }
