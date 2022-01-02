@@ -63,16 +63,15 @@ experiences:
       time: 2020 - now
       company: Motius GmbH, Munich
       details: |
-        With the team now consisting of five developers the decission was taken to
-        formally appoint me as their supervisor. The promotion also gave me the option to
-        design a structured approach and transition towards Kubernetes with out CTO.
-        With the company growing rapidly I saw the need for internal trainings for our
-        new developers, to bring them up to speed with both Kubernetes as well as a basic
-        DevOps mindest.
+        With the team now consisting of five developers, the decision was made to formally
+        appoint me as their supervisor. The promotion also gave me the option to design a
+        structured approach and transition towards Kubernetes with our CTO. With the company
+        growing rapidly I saw the need for internal training for our new developers, to bring
+        them up to speed with both Kubernetes as well as a basic DevOps mindest.
 
-        At the moment my team and me are maintaining a small 15 node cluster on baremetal
-        servers hosted with Hetzner. This cluster is both used for our platform, internal
-        tooling and our client projects.
+        At the moment my team and I are maintaining a small 15 node cluster on bare-metal servers
+        hosted with Hetzner. This cluster is both used for our platform, internal tooling,
+        and our client projects.
 
           - Kubernetes &amp; Helm
           - Trainings for colleagues
@@ -81,10 +80,10 @@ experiences:
       time: 2019 - 2020
       company: Motius GmbH, Munich
       details: |
-        With the company growing the need arose for a more structured DevOps approach,
-        which to me was a great opportunity to apply the experience that I gathered
-        in the past and broaden my knowledge in a new rising field. During this time
-        I was also named the interims lead for this section of the company.
+        With the company growing the need arose for a more structured DevOps approach, which to me
+        was a great opportunity to apply the experience that I gathered in the past and broaden my
+        knowledge in a newly rising field. During this time I have also been named the interims
+        lead for this section of the company.
 
           - Docker &amp; Docker-Compose
           - Python
@@ -94,19 +93,17 @@ experiences:
       time: 2018 - 2019
       company: Motius GmbH, Garching
       details: |
-        After the first successful projects and multiple univerity projects related
-        to project managment, for me the logical next step was to apply my theoretical
-        knowledge to real projects. The company used a very modified variant of the
-        scrum model for software &amp; hardware projects.
+        After the first successful projects and multiple university projects related to project management,
+        the logical next step was to apply my theoretical knowledge to real projects. The company used a
+        very modified variant of the scrum model for software &amp; hardware projects.
 
     - role: Junior Software Engineer
       time: 2017 - 2018
       company: Motius GmbH, Garching
       details: |
-        For this project we developed a retrofit device to enable washing machines
-        to be connected and controlled using an App. In this project I was using
-        existing off-the-shelf hardware components with the goal to create a robust
-        proof of concept.
+        For this project, we developed a retrofit device to enable washing machines to be connected and
+        controlled using an App. In this project, I was using existing off-the-shelf hardware components
+        intending to create a robust proof of concept.
 
           - Raspberry Pi
           - Python
