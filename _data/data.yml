@@ -50,6 +50,10 @@ career-profile:
       Working in a fast-growing startup, where I am tasked with managing and developing
       the infrastructure for developers as well as the internal tooling.
 
+      For the last 2-3 years I was actively leading a team of developers, by checking their
+      capacity ratios and helping them to grow both with external and internal courses.
+      This also included myself, where I could gather experiences with both AWS and Azure.
+
 education:
     - degree: "Computer Science</br>Master of Science (M.Sc.)"
       university: Technical University of Munich
@@ -133,8 +137,12 @@ skills:
       - name: Kubernetes
         level: 90%
 
-      - name: Linux / Bash
+      - name: Linux
         level: 85%
+
+
+      - name: AWS &amp; Azure
+        level: 70%
 
       - name: Python
         level: 65%
