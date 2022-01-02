@@ -126,10 +126,10 @@ projects:
         tagline: "Helping to host the engelsystem on a k3os cluster for the Bavarian Red Cross"
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Skills
 
     toolset:
-      - name: Kubernetes &amp; Containers
+      - name: Kubernetes
         level: 90%
 
       - name: Linux / Bash

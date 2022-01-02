@@ -7,20 +7,12 @@
        font-size: 12pt;
     }
 
-    img.avatar {
-        filter: grayscale(1);
-        -webkit-filter: greyscale(1);
-    }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact; 
-   }
     .sidebar-wrapper {
         position: static;
         float: right;
         width: 40%;
-        -webkit-print-color-adjust: exact; 
+        height: 1500px;
+        -webkit-print-color-adjust: exact;
     }
 
     .remove-container.container-block {
@@ -31,9 +23,27 @@
        display: none;
     }
 
+    a[href]:after {
+      content: none !important;
+    }
     .skillset .level-bar-inner {
-       background-color: black !important;
-       -webkit-print-color-adjust: exact; 
+       background-color: $bar-color !important;
+       -webkit-print-color-adjust: exact;
+    }
+
+    .sidebar-wrapper {
+      color: black !important;
+
+    }
+    .sidebar-wrapper a {
+      color: black !important;
+
+    }
+    .sidebar-wrapper .education-container .time {
+      color: black !important;
+    }
+    .sidebar-wrapper .education-container .meta {
+      color: black !important;
     }
 
 }

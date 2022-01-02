@@ -190,7 +190,7 @@ p {
         position: absolute;
         right: 0;
         top: 0;
-        color: $text-grey;
+        color: $text-color;
     }
     .company, .university {
         margin-bottom: 10px;
@@ -243,10 +243,18 @@ p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 12px;
+        display: inline-block;
+        width: 30%;
+        margin-bottom: 0;
     }
     .level-bar {
         height: 12px;
         background: $smoky-white;
+        display: inline-block;
+        width: 60%;
+        float: right;
+        position: relative;
+        top: 5px;
     }
     .level-bar-inner {
         height: 12px;
