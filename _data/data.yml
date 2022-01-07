@@ -9,16 +9,13 @@ sidebar:
     # Profile information
     name: Dominic Giebert
     tagline: DevOps Engineer
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.jpeg
 
     # Sidebar links
     email: dominic@giebert.eu
     phone: 0176 668 22169
-    #website: blog.webjeda.com #do not add http://
     linkedin: dgiebert
     github: dgiebert
-    #gitlab: dgiebert
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     pdf: "Download"
 
@@ -30,17 +27,11 @@ sidebar:
         level: Professional
 
     interests:
+      - item: Lifeguard with the Red Cross
       - item: Swimming
-        link: https://www.neufahrn.wasserwacht.de/
-
       - item: Volleyball
-        link:
-
-      - item: Cooking
-        link:
-
       - item: Fitness
-        link:
+
 
 career-profile:
     title: Career Profile
@@ -72,15 +63,17 @@ experiences:
         the decision was made to appoint me as their supervisor. In close cooperation with our
         CTO I designed and structured an approach on transitioning towards Kubernetes. With the company
         growing rapidly I saw the need for internal training for our new developers, to bring
-        them up to speed with both Kubernetes as well as a basic DevOps mindest.
+        them up to speed with both Kubernetes and the basic DevOps mindest.
 
         At the moment my team and I are maintaining a small 15 node cluster on bare-metal servers
-        hosted with Hetzner. This cluster is both used for our platform, internal tooling,
-        and our client projects.
+        hosted with Hetzner. This cluster is used for internal tooling such as the integrated business
+        platform as well as the delivery for our client projects.
 
           - Kubernetes &amp; Helm
           - Trainings for colleagues
 
+
+        <div class="pagebreak"> </div>
     - role: DevOps Engineer
       time: 2019 - 2020
       company: Motius GmbH, Munich
@@ -115,9 +108,19 @@ experiences:
           - Linux / Bash / Systemd
 
 projects:
-    title: Some Projects
+    title: private projects
     # intro:
     assignments:
+
+      - title: Red Cross (Wasserwacht)
+        link: https://www.neufahrn.wasserwacht.de/die-wasserwacht/vorstandschaft/
+        tagline: "Part of the managing committee for my local section"
+
+
+      - title: Vaccination Center
+        link: "https://github.com/engelsystem/engelsystem"
+        tagline: "Hosting the engelsystem on a k3os cluster for the Bavarian Red Cross"
+
       - title: BurmillaOS
         link: "https://burmillaos.org/"
         tagline: "Recreated and adapted the documentation using Hugo"
@@ -126,9 +129,7 @@ projects:
         link: "https://aur.archlinux.org/"
         tagline: "Maintaining a small collection of PKGBUILDs"
 
-      - title: Impfzentrum
-        link: "https://github.com/engelsystem/engelsystem"
-        tagline: "Helping to host the engelsystem on a k3os cluster for the Bavarian Red Cross"
+
 
 skills:
     title: Skills

@@ -7,15 +7,18 @@
        font-size: 12pt;
     }
 
+    .main-wrapper {
+       padding-right: 0px;
+       padding-bottom: 0px;
+    }
     .sidebar-wrapper {
         position: static;
         float: right;
         width: 40%;
-        height: 1500px;
+        height: 1300px;
         -webkit-print-color-adjust: exact;
         .profile-container { color: black !important; }
         .tagline { color: $text-color !important; }
-        .name { width: 250px;}
     }
 
     .remove-container.container-block {
@@ -42,5 +45,6 @@
          .meta { color: $text-color !important; }
       }
     }
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
 
 }
