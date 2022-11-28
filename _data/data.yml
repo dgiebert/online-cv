@@ -54,8 +54,21 @@ education:
       time: 2011 - 2014
 
 experiences:
+    - role: Senior Technical Consultant
+      time: 2022 - now
+      company: SUSE Software Solutions Germany GmbH, Munich OOH
+      details: |
+        I help our customers to understand the impact SUSE can deliver for their
+        business through its Rancher products. I am deploying the Rancher portfolio and
+        transforming how organizations develop and run their applications.
+        - Providing technical consulting for architecting container solutions
+        - Working with Customers to implement solutions based on Rancher and Kubernetes
+        - Maintaining an expert-level understanding of the SUSE Rancher portfolio of products
+        - Maintaining long term relationships with customers
+        <div class="pagebreak"> </div>
+
     - role: Head of DevOps &amp; Infrastructure
-      time: 2020 - now
+      time: 2020 - 2022
       company: Motius GmbH, Munich
       details: |
         With the team now consisting of five developers and me informally leading them,
@@ -71,8 +84,6 @@ experiences:
           - Kubernetes &amp; Helm
           - Trainings for colleagues
 
-
-        <div class="pagebreak"> </div>
     - role: DevOps Engineer
       time: 2019 - 2020
       company: Motius GmbH, Munich
@@ -115,7 +126,6 @@ projects:
         link: https://www.neufahrn.wasserwacht.de/die-wasserwacht/vorstandschaft/
         tagline: "Part of the managing committee for my local section"
 
-
       - title: Vaccination Center
         link: "https://github.com/engelsystem/engelsystem"
         tagline: "Hosting the engelsystem on a k3os cluster for the Bavarian Red Cross"
@@ -140,15 +150,18 @@ skills:
       - name: Linux
         level: 85%
 
+      - name: Terraform
+        level: 75%
 
-      - name: AWS &amp; Azure
+      - name: Ansible
         level: 70%
 
+      - name: AWS &amp; Azure
+        level: 55%
+
       - name: Python
-        level: 65%
+        level: 45%
 
       - name: Java &amp; Scala
-        level: 60%
+        level: 40%
 
-      - name: NodeJS
-        level: 55%
